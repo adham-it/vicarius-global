@@ -245,8 +245,8 @@ a {
     position: absolute;
     inset: 0;
     background-image:
-        linear-gradient(rgba(201, 154, 94, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(201, 154, 94, 0.05) 1px, transparent 1px);
+        linear-gradient(rgba(201, 154, 94, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 154, 94, 0.15) 1px, transparent 1px);
     background-size: 50px 50px;
     background-position: center center;
     -webkit-mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 80%);
