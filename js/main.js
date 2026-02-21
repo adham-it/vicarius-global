@@ -3,13 +3,16 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Navbar Scroll Effect
+    // Navbar and Top Bar Scroll Effect
     const navbar = document.getElementById('navbar');
+    const topBar = document.getElementById('topBar');
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
+        if (window.scrollY > 40) {
+            if (topBar) topBar.classList.add('fade-out');
             navbar.classList.add('scrolled');
         } else {
+            if (topBar) topBar.classList.remove('fade-out');
             navbar.classList.remove('scrolled');
         }
     });
