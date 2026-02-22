@@ -143,27 +143,27 @@ a {
     font-size: 0.85rem;
     font-weight: 600;
     z-index: 1001;
-    transition: var(--transition-smooth);
+    transition: opacity 0.3s ease-in-out;
 }
 
 .top-bar.fade-out {
     opacity: 0;
-    transform: translateY(-100%);
     pointer-events: none;
 }
 
 /* Navbar */
 .navbar {
     position: fixed;
-    top: 40px;
+    top: 0;
+    margin-top: 40px;
     width: 100%;
     z-index: 1000;
     padding: 1.5rem 0;
-    transition: var(--transition-smooth);
+    transition: background-color 0.4s ease, padding 0.4s ease, margin-top 0.4s ease;
 }
 
 .navbar.scrolled {
-    top: 0;
+    margin-top: 0;
     background: rgba(10, 14, 23, 0.9);
     backdrop-filter: blur(10px);
     padding: 1rem 0;

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const topBar = document.getElementById('topBar');
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 40) {
+        if (window.scrollY > 150) {
             if (topBar) topBar.classList.add('fade-out');
             navbar.classList.add('scrolled');
         } else {
